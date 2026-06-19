@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Women's Health Hospital Deliveries Dashboard</title>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=NmgQBFCfzcpgzpaF1iMscjN6-96Mmr_kw815XeUXbQXjdijsO_iqRAVouCn291MiFAY6PD3t-pthvnUr8dTcuWQkT-rj-_eLsl3wL273D_2FUUrWVNhNqbGysRY-8ci0d51lhFVIXXqIwQNeMGkryQ" charset="UTF-8"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap');
 
@@ -360,11 +360,11 @@
     <div class="logo-icon">🏥</div>
     <div>
       <div class="logo-text">Women's Health Hospital Deliveries Dashboard</div>
-      <div class="logo-sub">Maternity Analytics · Jan 2025 – Apr 2026</div>
+      <div class="logo-sub">Maternity Analytics · Jan 2025 – May 2026</div>
     </div>
   </div>
   <div class="header-right">
-    <span class="badge badge-period" id="periodBadge">Jan 2025 – Apr 2026</span>
+    <span class="badge badge-period" id="periodBadge">Jan 2025 – May 2026</span>
     <span class="badge badge-live">Live</span>
     <button id="adminBtn" onclick="openModal()">⚙ Admin</button>
   </div>
@@ -389,7 +389,7 @@
   <!-- Monthly Chart -->
   <div style="margin-bottom:1rem">
     <div class="section-title">Monthly Deliveries</div>
-    <div class="section-sub">Complete monthly data · January 2025 – April 2026</div>
+    <div class="section-sub">Complete monthly data · January 2025 – May 2026</div>
   </div>
   <div class="charts-grid" style="margin-bottom:2.5rem">
     <div class="chart-card">
@@ -585,7 +585,7 @@
   <!-- ER Section -->
   <div style="margin-bottom:1rem">
     <div class="section-title">Emergency Room Activity</div>
-    <div class="section-sub">Monthly ER visits · Total = Admissions + Consultations · Jan 2025 – Apr 2026</div>
+    <div class="section-sub">Monthly ER visits · Total = Admissions + Consultations · Jan 2025 – Apr 2026 &nbsp;(May 2026 ER data not yet available)</div>
   </div>
 
   <!-- ER KPI 2025 -->
@@ -808,6 +808,7 @@ const ORIGINAL_DATA = [
   {month:'2026-02',total:260,cs:140,nsvd:120,saudiTotal:187,nonSaudiTotal:73,booked:86,unbooked:174,csSaudi:101,csNonSaudi:39,nsvdSaudi:86,nsvdNonSaudi:34,nsvdBooked:29,nsvdUnbooked:91,csBooked:57,csUnbooked:83},
   {month:'2026-03',total:259,cs:136,nsvd:123,saudiTotal:180,nonSaudiTotal:79,booked:106,unbooked:153,csSaudi:90,csNonSaudi:46,nsvdSaudi:90,nsvdNonSaudi:33,nsvdBooked:37,nsvdUnbooked:86,csBooked:69,csUnbooked:67},
   {month:'2026-04',total:265,cs:144,nsvd:121,saudiTotal:181,nonSaudiTotal:84,booked:97,unbooked:168,csSaudi:101,csNonSaudi:43,nsvdSaudi:80,nsvdNonSaudi:41,nsvdBooked:34,nsvdUnbooked:87,csBooked:63,csUnbooked:81},
+  {month:'2026-05',total:271,cs:133,nsvd:138,saudiTotal:189,nonSaudiTotal:82,booked:109,unbooked:162,csSaudi:92,csNonSaudi:41,nsvdSaudi:97,nsvdNonSaudi:41,nsvdBooked:36,nsvdUnbooked:102,csBooked:73,csUnbooked:60},
 ];
 
 let data = JSON.parse(JSON.stringify(ORIGINAL_DATA));
