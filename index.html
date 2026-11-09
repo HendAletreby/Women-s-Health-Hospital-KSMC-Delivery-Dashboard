@@ -360,11 +360,11 @@
     <div class="logo-icon">🏥</div>
     <div>
       <div class="logo-text">Women's Health Hospital Deliveries Dashboard</div>
-      <div class="logo-sub">Maternity Analytics · Jan 2025 – May 2026</div>
+      <div class="logo-sub">Maternity Analytics · Jan 2025 – Sep 2026</div>
     </div>
   </div>
   <div class="header-right">
-    <span class="badge badge-period" id="periodBadge">Jan 2025 – May 2026</span>
+    <span class="badge badge-period" id="periodBadge">Jan 2025 – Sep 2026</span>
     <span class="badge badge-live">Live</span>
     <button id="adminBtn" onclick="openModal()">⚙ Admin</button>
   </div>
@@ -389,7 +389,7 @@
   <!-- Monthly Chart -->
   <div style="margin-bottom:1rem">
     <div class="section-title">Monthly Deliveries</div>
-    <div class="section-sub">Complete monthly data · January 2025 – May 2026</div>
+    <div class="section-sub">Complete monthly data · January 2025 – September 2026</div>
   </div>
   <div class="charts-grid" style="margin-bottom:2.5rem">
     <div class="chart-card">
@@ -413,7 +413,7 @@
   <!-- Quarterly Chart -->
   <div style="margin-bottom:1rem">
     <div class="section-title">Quarterly Summary</div>
-    <div class="section-sub">Complete quarters only · Q1 2025 – Q1 2026 &nbsp;(Q2 2026 excluded — incomplete)</div>
+    <div class="section-sub">Complete quarters only · Q1 2025 – Q3 2026</div>
   </div>
   <div class="charts-grid" style="margin-bottom:1.5rem">
     <div class="chart-card">
@@ -585,7 +585,7 @@
   <!-- ER Section -->
   <div style="margin-bottom:1rem">
     <div class="section-title">Emergency Room Activity</div>
-    <div class="section-sub">Monthly ER visits · Total = Admissions + Consultations · Jan 2025 – Apr 2026 &nbsp;(May 2026 ER data not yet available)</div>
+    <div class="section-sub">Monthly ER visits · Total = Admissions + Consultations · Jan 2025 – Jun 2026 &nbsp;(Jul–Sep 2026 ER data not yet available)</div>
   </div>
 
   <!-- ER KPI 2025 -->
@@ -653,7 +653,7 @@
   <!-- ER Quarterly Charts -->
   <div style="margin-bottom:1rem;margin-top:0.5rem">
     <div class="section-title" style="font-size:1.1rem">ER Activity · Quarterly Summary</div>
-    <div class="section-sub">Completed quarters only · Q1 2025 – Q1 2026</div>
+    <div class="section-sub">Completed quarters only · Q1 2025 – Q2 2026</div>
   </div>
 
   <div class="charts-grid" style="margin-bottom:1.5rem">
@@ -809,7 +809,10 @@ const ORIGINAL_DATA = [
   {month:'2026-03',total:259,cs:136,nsvd:123,saudiTotal:180,nonSaudiTotal:79,booked:106,unbooked:153,csSaudi:90,csNonSaudi:46,nsvdSaudi:90,nsvdNonSaudi:33,nsvdBooked:37,nsvdUnbooked:86,csBooked:69,csUnbooked:67},
   {month:'2026-04',total:265,cs:144,nsvd:121,saudiTotal:181,nonSaudiTotal:84,booked:97,unbooked:168,csSaudi:101,csNonSaudi:43,nsvdSaudi:80,nsvdNonSaudi:41,nsvdBooked:34,nsvdUnbooked:87,csBooked:63,csUnbooked:81},
   {month:'2026-05',total:271,cs:133,nsvd:138,saudiTotal:189,nonSaudiTotal:82,booked:109,unbooked:162,csSaudi:92,csNonSaudi:41,nsvdSaudi:97,nsvdNonSaudi:41,nsvdBooked:36,nsvdUnbooked:102,csBooked:73,csUnbooked:60},
-{month:'2026-06',total:317,cs:163,nsvd:154,saudiTotal:210,nonSaudiTotal:107,booked:122,unbooked:185,csSaudi:null,csNonSaudi:null,nsvdSaudi:null,nsvdNonSaudi:null,nsvdBooked:null,nsvdUnbooked:null,csBooked:null,csUnbooked:null},
+  {month:'2026-06',total:316,cs:163,nsvd:153,saudiTotal:209,nonSaudiTotal:107,booked:121,unbooked:195,csSaudi:109,csNonSaudi:54,nsvdSaudi:100,nsvdNonSaudi:53,nsvdBooked:44,nsvdUnbooked:109,csBooked:77,csUnbooked:86},
+  {month:'2026-07',total:322,cs:181,nsvd:141,saudiTotal:227,nonSaudiTotal:95,booked:127,unbooked:195,csSaudi:119,csNonSaudi:62,nsvdSaudi:108,nsvdNonSaudi:33,nsvdBooked:45,nsvdUnbooked:96,csBooked:82,csUnbooked:99},
+  {month:'2026-08',total:334,cs:166,nsvd:168,saudiTotal:248,nonSaudiTotal:86,booked:111,unbooked:223,csSaudi:119,csNonSaudi:47,nsvdSaudi:129,nsvdNonSaudi:39,nsvdBooked:41,nsvdUnbooked:127,csBooked:70,csUnbooked:96},
+  {month:'2026-09',total:314,cs:150,nsvd:164,saudiTotal:214,nonSaudiTotal:100,booked:111,unbooked:203,csSaudi:104,csNonSaudi:46,nsvdSaudi:110,nsvdNonSaudi:54,nsvdBooked:45,nsvdUnbooked:119,csBooked:66,csUnbooked:84},
 ];
 
 let data = JSON.parse(JSON.stringify(ORIGINAL_DATA));
